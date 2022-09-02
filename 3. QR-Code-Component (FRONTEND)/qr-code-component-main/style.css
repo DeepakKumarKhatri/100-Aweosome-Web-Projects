@@ -1,0 +1,38 @@
+.mainContainer {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    margin-left: 200px;
+    margin-right: 133px;
+}
+
+.white-container {
+    margin: 200px 200px 200px 200px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.barcode-container {
+    margin-left: 22px;
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+    width: 50%;
+    font-weight: 400px;
+    margin-left: 150px;
+}
+
+p {
+    font-weight: 700px;
+    font-size: 15px;
+    width: 43%;
+    margin-left: 160px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
+.barcode-img {
+    border-radius: 20px;
+}
