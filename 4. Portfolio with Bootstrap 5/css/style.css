@@ -1,0 +1,289 @@
+/* ******************************* HOME SECTION ******************************** */
+body{
+    font-family: "Fira Mono";
+}
+#navbar-section{
+    background-color: #8e2de2;
+}
+.navbar{
+    background-color:#9d40ee;
+    border-radius: 10px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 3.4rem;
+    white-space: none;
+}
+#fName{
+    color: #F7ECDE;
+}
+#lName{
+    color: #1A4D2E;
+}
+.container-fluid{
+    padding: 3% 8%;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0 0.3%;
+}
+.nav-link:hover{
+    font-size: 1.25rem;
+    border-radius: 5%;
+    background-color: #8e2de2;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+}
+.deepak-description{
+    color: #59CE8F;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#about-section{
+    background-color: #8e2de2;
+}
+#highlight{
+    color: #F7ECDE;
+    background-color: rgb(51, 41, 41);
+}
+.intro-area{
+    margin-top: 10%;
+}
+.deepak-profile{
+    padding-bottom: 3%;
+    border-radius: 12%;
+    /* filter: drop-shadow(10px 10px 10px #f6d1be); */
+    position: absolute;
+}
+
+.row{
+    margin-top: 6%;
+}
+
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite; 
+    transform-origin: 70% 70%;      
+    display: inline-block;
+    font-size: 3rem;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
+
+
+/* ******************************* ABOUT SECTION ******************************** */
+#about{
+    position: relative;
+    background-color: #F7ECDE;
+    padding: 4% 15% 0 15%;
+}
+#aboutDescription{
+    background-color: #F7ECDE;
+}
+.aboutMe{
+    background-color: black;
+    font-size: 4rem;
+    
+}
+.aboutDeepak{
+    text-align: center;
+}
+.allAboutDeepak{
+    font-weight: bold;
+    color: #73777B;
+    font-size: 1.2rem;
+}
+.aboutRow{
+    margin-top: 0%;
+}
+.linksTag{
+    background-color: #8e2de2;
+    color: white;
+}
+.linksTag:hover{
+    background-color: #1A4D2E;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+
+/* ******************* PROJECTS SECTION ********************* */
+
+#projects{
+    background-color: #9d40ee;
+    
+}
+.project-heading{
+    padding: 6% 15% 0 15%;
+    text-align: center;
+    font-size: 4rem;
+}
+.project-name-heading{
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+}
+
+.firstIdea{
+    background-color: black;
+    font-size: 4rem;
+    color: #F7ECDE;
+}
+.secondIdea{
+    background-color: #1A4D2E;
+    font-size: 4rem;
+    color: #F7ECDE;
+}
+.card-item-body {
+    background-color:aliceblue;
+}
+.card-item{
+    margin: 4% 4%;
+    border-radius: 8%;
+}
+.card-item:hover{
+    filter: drop-shadow(10px 10px 10px #d9cac2);
+}
+.card-button:hover{
+    filter: drop-shadow(10px 10px 10px #d9cac2);
+}
+
+/* ****************** GALLERY SECTION ******************* */
+
+#gallery{
+    background-color: #F7ECDE;
+    text-align: center;
+}
+.container-fluid-gallery{
+    padding: 8% 10%;
+}
+
+.gallery-heading-span{
+    background-color: black;
+    color: #fff; 
+    text-align: center;
+    font-size: 4rem;
+}
+.gallery-heading-my{
+    background-color: #1A4D2E;
+    color: #fff; 
+    text-align: center;
+    font-size: 4rem;
+}
+.event-title{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 3%;
+    
+}
+.event-description{
+    text-align: center;
+    padding-left: 22%;
+    padding-top: 2%;
+    width: 80%;
+}
+.gallery-images{
+    border-radius: 10px;
+}
+
+/* ****************** CONTACT SECTION ******************* */
+
+#contact{
+    padding-top: 3%;
+    background-color: #9d40ee;
+    text-align: center;
+}
+.contact-heading-span{
+    background-color: black;
+    color: #fff; 
+}
+.contact-heading-me{
+    background-color: #1A4D2E;
+    color: #fff; 
+}
+.social-icons{
+    margin: 20px 15px;
+}
+#social-icons-linkedin:hover{
+    color:  #08699e;
+    background-color: #fff;
+    border-radius: 8px;
+}
+#social-icons-facebook:hover{
+    color:  #4065b0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+#social-icons-twitter:hover{
+    color:  #00acee;
+    background-color: #fff;
+    border-radius: 8px;
+}
+#social-icons-mail:hover{
+    color:  #c71610;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.copyright-message{
+    padding-top: 3%;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.icons-default{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:995px) {
+    .deepak-profile{
+        width: 100%;
+        position: relative;
+    }
+    .intro-area{
+        text-align: center;
+    }
+
+}
+@media (max-width:740px) {
+    .firstIdea{
+        font-size: 2.5rem;
+    }
+    .secondIdea{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,182 @@
+<!-- This line suggests our file that we are going to initialize the html Init. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assests/Deepak is Programmer ).png">
+    <title>Deepak Kumar Khatri</title>
+
+    <!--This one is for Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     
+    <!--We are using Internal (CSS in head tag) CSS for this one -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            font-family: 'Inter', sans-serif;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        .links{
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            padding-top: 60px;
+        }
+
+        .links a{
+            text-decoration: none;
+            color: black;
+            font-family: 400;
+            font-size: 20px;
+            margin-right: 20px;
+            transition: all;
+            transition-duration: 0.3s;
+        }
+
+        .links a:hover{
+            color: #c58530;
+        }
+
+        .line{
+            border: 2px solid #c59d30;
+            width: 32px;
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        .buttons button{
+            font-size: 20px;
+            margin-left: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            height: 51px;
+            width: 165px;
+            transition: all;
+            transition-duration: 0.3s;
+        }
+
+        .getMyResume{
+            background-color:#c59d30;
+            color:white;
+            border: 1px solid transparent;
+        }
+
+        .getMyResume:hover{
+            background-color: white;
+            color: #c59d30;
+        }
+
+        .sayMeHi{
+            background-color:white;
+            color:#c59d30;
+            border: 1px solid transparent;
+        }
+
+        .sayMeHi:hover{
+            background-color: #c59d30;
+            color: white;
+        }
+       
+        main{
+            padding: 30px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .hero{
+            width: 600px;
+        }
+        .hero h1{
+            font-size: 50px;
+            font-weight: 600px;
+            margin-right: 60px;
+        }
+        .hero p{
+            font-size: 20px;
+            color: rgba(151, 151, 151,65);
+            margin-top: 22px;
+        }
+        .hero span{
+            color:#c59d30;
+        }
+        .hero button{
+            width: 270px;
+            height: 65px;
+            background-color:#c59d30;
+            color:white;
+            border: 1px solid transparent;
+            margin-top: 20px;
+            border-radius: 6px;
+            transition: all;
+            transition-duration: 0.3s;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .hero button:hover{
+            background-color: white;
+            color: #c59d30;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav> 
+            <ul class="links">
+                <li>
+                    <a href="#">About Me</a>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <a href="https://linktr.ee/deepakkumarkhatri" target="_blank">Let's Connect</a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/DeepakKumarKhatri" target="_blank">Projects</a>
+                </li>
+            </ul>
+
+            <!-- Div is like a container more of a box (BUTTONS)-->
+            <div class="buttons">
+                <button class="getMyResume" onclick=" window.open('https://drive.google.com/file/d/1PLj_xN5OtRwIw6oZpGvDLaRjLSGbdsJT/view?usp=sharing','_blank')">Get my Resume</button>
+                <button class="sayMeHi" onclick=" window.open('https://www.linkedin.com/in/deepakkumarkhatri','_blank')" >Say me Hi</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!--Hero Section for the content-->
+        <section class="hero">
+            <h1>Hey there 👋 I'm <span>Deepak Kumar</span> !</h1>
+            <p>I’m an Open-Source enthusiast & a junior pursuing my Bachelors in 
+            Computer Science and have a strong interest in Open-Source 💙.</p>
+            <p>I'm passionate about Cloud Computing, AWS, Web Dev, Machine Learning,       
+            DevOps & I enjoy learning new things ✨!</p>
+            <button class= "contactMe" onclick="window.open('https://mail.google.com/mail','_blank')">Contact Me</button>     
+        </section>
+
+        <!-- Illustration Section -->
+        <section class="illustration">
+            <img src="./assests/Deepak.png" alt="">
+        </section>
+    </main>
+</body>
+</html>
