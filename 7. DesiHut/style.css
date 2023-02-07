@@ -1,0 +1,68 @@
+/* Fonts
+font-family: 'Bungee Spice', cursive;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-family: 'Roboto', sans-serif; */
+h1{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    text-align: justify;
+    
+}
+#navbar-section{
+    padding: 3% 1%;
+    background-color: #FECD70;
+    font-size: 115%;
+}
+.navbar{
+    background-color: #e2b561;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+}
+.nav-main-content{
+    padding: 2%;
+}
+.navbar-brand{
+    font-size: 150%;
+    color: #25316D;
+    margin-right: 30%;
+}
+.navbar-brand:hover{
+    font-size: 200%;
+    font-weight: bold;
+    color: #101b52;
+    background-color: #d2a551;
+    border-radius: 10px;
+}
+
+/* Below Navbar Section */
+
+#main-theme{
+    background-color: #FECD70;
+}
+.tagline-work{
+    margin: 5% 3%;
+}
+.btn{
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#famousResturents{
+    background-color: #F3E0B5;
+}
+#mostOrdered{
+    background-color: #FECD70;
+}
+#footer{
+    background-color: #9f9d97;
+}
